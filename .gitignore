@@ -1,0 +1,17 @@
+# Dossiers de compilation
+bin/
+obj/
+
+# Fichiers de log et temporaires
+*.log
+.DS_Store
+
+# Dossiers de l'éditeur (VS Code / Visual Studio)
+.vscode/
+.vs/
+*.user
+*.userosscache
+*.sln.docuser
+
+# Fichiers de publication
+publish/
