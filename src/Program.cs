@@ -1,4 +1,4 @@
-﻿using ConsoleApp.src.Services;
+﻿using ConsoleApp.src.TaskManager;
 
 namespace ConsoleApp.src
 {
@@ -6,7 +6,8 @@ namespace ConsoleApp.src
     {
         static void Main()
         {
-            
+            ToDoList toDoList = new();
+            toDoList.Run();
         }
     }
 }
