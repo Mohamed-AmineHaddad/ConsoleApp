@@ -1,19 +1,8 @@
 namespace ConsoleApp.src.Models
 {
-    class Task
+    class Task(string title)
     {
-        public string Title {get; set;}
-        public bool IsDone {get; set;} = false;
-        private static int counter = 0;
-
-        public Task()
-        {
-            Title = "Task" + counter++;
-        }
-
-        public Task(string title)
-        {
-            Title = title;
-        }
+        public string TaskTitle {get; set;} = title;
+        public bool IsTaskDone {get; set;} = false;
     }
 }
